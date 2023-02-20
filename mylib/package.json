@@ -1,0 +1,18 @@
+{
+  "name": "mylib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/mylib.js",
+  "types": "dist/mylib.d.ts",
+  "scripts": {
+    "dev": "tsc -p .",
+    "watch": "tsc -p . -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "4.0.2",
+    "typescript": "4.5.5"
+  }
+}

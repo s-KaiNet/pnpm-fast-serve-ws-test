@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "myspfxwebpart-client-side-solution",
+    "id": "fcca16df-f8b0-4a03-9dc3-a97f25af5d13",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "myspfxwebpart description"
+      },
+      "longDescription": {
+        "default": "myspfxwebpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "myspfxwebpart Feature",
+        "description": "The feature that activates elements of the myspfxwebpart solution.",
+        "id": "cef2d480-2f6c-4d5b-a65c-f46e85ba29ec",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/myspfxwebpart.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "my-mono-reop-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myMonoReopWp/MyMonoReopWpWebPart.js",
+          "manifest": "./src/webparts/myMonoReopWp/MyMonoReopWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyMonoReopWpWebPartStrings": "lib/webparts/myMonoReopWp/loc/{locale}.js"
+  }
+}
